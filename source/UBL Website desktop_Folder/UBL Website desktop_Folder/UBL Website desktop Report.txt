@@ -1,0 +1,48 @@
+Package Report
+
+-----------------------------------------------------------------------------
+Document:
+Name: UBL Website desktop.ai
+Color Mode: RGB color
+Color Profile: sRGB IEC61966-2.1
+Ruler Units: pixels
+Artboard Dimensions: 1430.4429 px x 1718.9626 px
+Show Images in Outline Mode: OFF
+Highlight Substituted Fonts: OFF
+Highlight Substituted Glyphs: OFF
+Preserve Text Editability
+Simulate Colored Paper: OFF
+
+-----------------------------------------------------------------------------
+Spot Color Objects:
+PANTONE 1807 C (Lab)
+PANTONE 2347 C (Lab)
+PANTONE 457 C (Lab)
+R=167 G=159 B=151 (RGB)
+
+-----------------------------------------------------------------------------
+Missing Fonts:NONE
+
+-----------------------------------------------------------------------------
+Protected Fonts that were not packaged:NONE
+
+-----------------------------------------------------------------------------
+Fonts:
+Candy Rose Regular (TrueType)
+Droid Serif (TrueType)
+Lato-Light (TrueType)
+Lato Regular (OTF)
+Lato Bold (OTF)
+Lato Black (OTF)
+
+-----------------------------------------------------------------------------
+Embedded Fonts:
+NONE
+
+-----------------------------------------------------------------------------
+Missing Links:
+NONE
+
+-----------------------------------------------------------------------------
+Linked Images:
+NONE
