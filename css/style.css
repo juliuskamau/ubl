@@ -1187,20 +1187,10 @@ figure.effect-overlay-cool:hover img {
   bottom: 0px;
   z-index: 3;
   position: absolute;
-}/*
-.nopadding .col-md-4 {
-    padding-left: 0px;
-    padding-right: 0px;
-   max-width: 22%;
-  }
-.row .nopadding{
-    margin-right: 0px;
-    margin-left: 0px;
-}*/
-.language {
+}
+/*
+#google_translate_element.language select{
    
-    background-color: #a79f97;
-   float: right !important;
     transition: all 0.35s, border-radius 0s;
     width: 32px;
     height: 32px;
@@ -1213,8 +1203,115 @@ figure.effect-overlay-cool:hover img {
     font-family: Lato-Black;
     float: left;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 0px;
+    outline: none;
+    float: right;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url(../images/icons/select_down.png) no-repeat center #ddd;
+
+
 }
+
+#google_translate_element.language select::-ms-expand {
+  display: none;
+}
+
+#google_translate_element.language select * {
+     padding: 10px 15px 10px 15px;
+    border-top: solid 1px #E6E6E6;
+    background-color: #fff;
+    font-size: 11px;
+    color: #aa9f98;
+    font-family: 'DroidSerif-Bold';
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 150px;
+    width: 320px;
+    height: 320px;
+}
+
+.goog-logo-link {
+  display:none !important;
+} 
+
+.goog-te-gadget{
+  color: transparent !important;
+}
+*/
+
+/*
+#google_translate_element {
+  position: absolute;
+  z-index: 9;
+}*/
+
+
+.goog-te-menu2-item{
+  padding: 10px 15px 10px 15px;
+  border-top: solid 1px #E6E6E6;
+  color: #000;
+
+  font-size: 11px;
+  color: #aa9f98;
+  font-family: 'DroidSerif-Bold';
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 15px;
+}
+.goog-te-gadget-simple {
+  background-color: #a79f97 !important;
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  border-radius: 25px;
+  margin: 10px 0px 10px 0px;
+  position: relative;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  color: #FFF;
+  font-family: Lato-Black;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 32px;
+  font-size: inherit !important;
+}
+
+
+
+.goog-te-menu-value {
+  color: #fff !important;
+  font-size: 0;
+}
+.goog-te-menu-value:before {
+  content: "EN";
+  color: #FFF;
+  font-family: Lato-Black;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  font-size: 12px;
+}
+
+
+
+.goog-te-gadget-icon,.goog-te-menu-value img,.goog-te-menu-value span {
+  display: none;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+
+
+
+
+
 
 .searchi a{
     color: #FFF;

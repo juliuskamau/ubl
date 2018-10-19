@@ -282,4 +282,11 @@ h2 {font-size: 20px;padding: 8px 20px;}
 .jssor_1{height: auto;}
 .slides{height: auto;}
 }
+
+@media only screen and (max-width: 1100px) {
+
+ 
+}
+
+
 /*# End of css */

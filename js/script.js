@@ -205,4 +205,77 @@ $(window).ready(function() {
     $("body").addClass("loaded");
 });
 
+//GOOGLE TRANSLATE
+
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,fr,sw,ar,zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+  }
+
+
+// WORK IN PROGRESS BELOW
+      	
+$('document').ready(function () {
+
+
+    // RESTYLE THE DROPDOWN MENU
+$('#google_translate_element').on("click", function () {
+
+    // Change font family and color
+    $("iframe").contents().find(".goog-te-menu2-item div, .goog-te-menu2-item:link div, .goog-te-menu2-item:visited div, .goog-te-menu2-item:active div, .goog-te-menu2 *")
+        .css({
+            'color':'#000',
+            'font-family': 'DroidSerif-Bold',
+            'width':'100%',
+            'font-weight':'500',
+            'text-transform':'uppercase'
+        });
+  
+    // Change the padding of the languages
+    $("iframe").contents().find('.goog-te-menu2-item div').css({
+        'border-top': 'solid 1px #E6E6E6','padding': '10px 15px 10px 15px','font-family': 'DroidSerif-Bold','font-weight':'500','text-transform':'uppercase','text-transform':'uppercase'
+    });
+
+  
+    // Change hover effects
+   $("iframe").contents().find(".goog-te-menu2-item div").hover(function () {
+        $(this).css('background-color', '#B89C17').find('span.text').css({
+        });
+    },
+    function () {
+        $(this).css('background-color', 'white').find('span.text').css({
+            'font-family': 'DroidSerif-Bold',
+            'font-weight':'500',
+            'text-transform':'uppercase',
+            'color':'#000'
+         });
+    });
+
+   
+
+    // Change the iframe's box shadow
+    $(".goog-te-menu-frame").css({
+        'height': '300px',
+         'box-shadow': 'rgba(0, 0, 0, 0.14) 0px 16px 24px 2px, rgba(0, 0, 0, 0.12) 0px 6px 30px 5px, rgba(0, 0, 0, 0.3) 0px 8px 10px -5px',
+         'overflow-y':'scroll'
+     });
+    
+  
+  
+    // Change the iframe's size and position?
+    $(".goog-te-menu-frame").css({
+        'width': '100%',
+        'top': '50px',
+ 
+        
+       
+    });
+    // Change iframes's size
+    $("iframe").contents().find('.goog-te-menu2').css({
+        'height': '300px',
+        'width': '100%',
+       'overflow-y':'scroll'
+       
+    });
+});
+});
 
